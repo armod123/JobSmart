@@ -182,8 +182,9 @@
                     
                     const formData = new FormData();
                     formData.append('resume', file);
+                    const API_BASE_URL ='https://jobsmart.onrender.com';
                     
-                    fetch('http://localhost:5000/api/analyze', {
+                    fetch(`${API_BASE_URL}/api/analyze`, {
                         method: 'POST',
                         body: formData
                     })

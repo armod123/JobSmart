@@ -1,0 +1,12 @@
+Flask
+Werkzeug
+PyPDF2
+python-docx
+langid
+spacy
+google-cloud-aiplatform
+vertexai
+flask-cors
+google-auth
+python-dotenv
+guinicorn

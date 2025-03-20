@@ -9,3 +9,4 @@ vertexai
 flask-cors
 google-auth
 python-dotenv
+gunicorn==20.1.0
